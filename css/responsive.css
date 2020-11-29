@@ -1,0 +1,17 @@
+@media screen and (max-width: 1700px) {
+    .welcome-banner {
+        padding: 9% 0 16% 0;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    .welcome-banner {
+        padding: 9% 0 12% 0;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .welcome-banner {
+        padding: 5% 0 12% 0;
+    }
+}
