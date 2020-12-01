@@ -27,8 +27,15 @@ a {
 
 h2 {
   font-family: "Poppins", sans-serif;
-  font-weight: 300;
   font-size: 48px;
+  font-weight: 300;
+  color: #7492ec;
+}
+
+h3 {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
   color: #7492ec;
 }
 
@@ -105,7 +112,7 @@ p {
 .navigation .menu .menu-item a {
   font-family: "Poppins", sans-serif;
   font-weight: bold;
-  font-size: 16px;
+  font-size: 15px;
   color: #99aade;
   text-decoration: none;
 }
@@ -143,7 +150,7 @@ p {
 #second {
   position: relative;
   background-color: #fff;
-  padding: 75px 0 50px 0;
+  padding: 75px 0 118px 0;
   z-index: 10;
 }
 
@@ -212,10 +219,94 @@ p {
   content: "";
   position: absolute;
   right: 0;
-  bottom: 0;
+  top: -90px;
   width: 662px;
-  height: 800px;
+  height: 850px;
   opacity: 0.1;
   background: url(../img/flower.png) no-repeat;
+}
+
+#classes {
+  position: relative;
+  background-color: #f1f3f8;
+  padding-bottom: 100px;
+  overflow: hidden;
+}
+
+#classes h2 {
+  padding: 105px 0 50px 0;
+  text-align: center;
+}
+
+#classes:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 135px;
+  height: 112px;
+  background: url(./../img/flower-title.png) no-repeat;
+}
+
+#classes:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -50px;
+  width: 1161px;
+  height: 694px;
+  background: url(./../img/classes-bg.png) no-repeat;
+}
+
+.classes-wrapper {
+  position: absolute;
+  max-width: 1265px;
+  margin: 0 auto;
+  text-align: center;
+  top: 50%;
+  right: 0;
+  left: 0;
+}
+
+.classes-slider {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: auto;
+  text-align: center;
+}
+
+.classes-slider .classes-slide {
+  text-align: left;
+  word-break: break-word;
+}
+
+.classes-slider .classes-slide .classes-img,
+.classes-slider .classes-slide .classes-details {
+  display: block;
+  max-width: 300px;
+  margin: auto;
+}
+
+.classes-slider .classes-slide .classes-img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.classes-slider .classes-slide .classes-details {
+  padding-left: 5px;
+}
+
+.classes-slider .details-list {
+  list-style: none;
 }
 /*# sourceMappingURL=main.css.map */
