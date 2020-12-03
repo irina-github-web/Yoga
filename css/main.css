@@ -23,6 +23,7 @@ a {
   color: #fff;
   font-size: 13px;
   border-radius: 55px;
+  padding: 10px 25px;
 }
 
 h2 {
@@ -125,10 +126,6 @@ p {
   margin-right: 25px;
 }
 
-.navigation .trial-btn a {
-  padding: 10px 25px;
-}
-
 .welcome-banner {
   padding: 10% 0 20% 0;
 }
@@ -161,6 +158,8 @@ p {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 #second .col-1,
@@ -265,7 +264,7 @@ p {
   max-width: 1265px;
   margin: 0 auto;
   text-align: center;
-  top: 50%;
+  top: 44%;
   right: 0;
   left: 0;
 }
@@ -307,6 +306,101 @@ p {
 }
 
 .classes-slider .details-list {
+  margin: 15px 0;
   list-style: none;
+}
+
+.classes-slider .details-list .datails-item {
+  color: #999999;
+  line-height: 30px;
+}
+
+.classes-slider .details-list .datails-item .fa {
+  margin-right: 10px;
+  color: #7492ec;
+}
+
+.classes-wrapper .swiper-button-next:after,
+.classes-wrapper .swiper-button-prev:after {
+  display: none;
+}
+
+.classes-wrapper .classes-next-btn,
+.classes-wrapper .classes-prev-btn {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: auto;
+  color: #7492ec;
+  font-size: 30px;
+}
+
+.classes-wrapper .classes-next-btn:focus,
+.classes-wrapper .classes-prev-btn:focus {
+  outline: none;
+}
+
+#gallery {
+  padding: 124px 0;
+  text-align: center;
+}
+
+#gallery .gallery-title {
+  font-family: "Poppins", sans-serif;
+  font-size: 32px;
+  font-weight: 300;
+  color: #000;
+}
+
+#gallery .gallery-subtitle {
+  color: #666666;
+  font-size: 14px;
+  line-height: 24px;
+  margin: 20px auto 65px auto;
+}
+
+#gallery .btn a {
+  padding: 10px 40px;
+}
+
+#gallery .gallery-list {
+  list-style: none;
+  padding-top: 90px;
+  display: -ms-grid;
+  display: grid;
+  width: 100%;
+  margin: 0 auto;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
+
+#gallery .gallery-list .gallery-item {
+  display: block;
+}
+
+#gallery .gallery-list .gallery-item .gallery-image {
+  max-width: 100%;
+  height: 270px;
+  border-radius: 5px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+#gallery .gallery-list .gallery-item.long-image {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-column: 1 / 3;
+  -ms-grid-row: 2;
+  grid-row: 2;
+}
+
+#blue {
+  padding: 140px 0 103px 0;
+  color: #fff;
+  text-align: center;
+  background-color: #7b92e1;
+  background: url(../img/blue-bg.png) no-repeat;
+  background-size: 100% 100%;
 }
 /*# sourceMappingURL=main.css.map */
